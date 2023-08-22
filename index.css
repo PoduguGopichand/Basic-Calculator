@@ -1,0 +1,36 @@
+.container{
+    width : 250px;
+    border-radius : 10px;
+    border : 3px solid #160C28;
+    padding : 20px;
+    margin : auto auto;
+    background : #929487;
+}
+input{
+    display : block;
+    width : 75%;
+    border : 3px solid #363732;
+    border-radius : 10px;
+    margin: 20px auto;
+    text-align: center;
+    height : 35px;
+    padding : 5px;
+
+}
+::placeholder{
+    color : #A755C2;
+}
+
+.operation{
+    display : grid;
+    grid-gap : 5px;
+    grid-template-columns : repeat(2, 1fr);
+    grid-template-rows : repeat(2,1fr);
+}
+button{
+    border : none;
+    padding : 10px;
+    font-weight : bold;
+    background : #E0BAD7;
+    border-radius : 10px;
+}
